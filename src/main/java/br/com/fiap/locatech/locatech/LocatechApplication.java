@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class LocatechApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LocatechApplication.class, args);
+		SpringApplication.run(LocatechApplication.class, args); 
 	}
 
 }
