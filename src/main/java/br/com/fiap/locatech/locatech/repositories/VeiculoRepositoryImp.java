@@ -66,7 +66,7 @@ public class VeiculoRepositoryImp implements VeiculoRepository {
     public Integer delete(Long id) {
         return this.jdbcClient
                 .sql("DELETE FROM veiculos WHERE id = :id")
-                .param("id", id)
+                .param("id", id) 
                 .update();
     }
 
