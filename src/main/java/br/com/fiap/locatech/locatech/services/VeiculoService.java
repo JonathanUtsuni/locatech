@@ -3,8 +3,6 @@ package br.com.fiap.locatech.locatech.services;
 import java.util.List;
 import java.util.Optional;
 
-import javax.management.RuntimeErrorException;
-
 import org.springframework.stereotype.Service;
 import org.springframework.util.Assert;
 
