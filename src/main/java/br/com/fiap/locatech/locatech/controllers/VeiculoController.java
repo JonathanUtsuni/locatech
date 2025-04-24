@@ -2,9 +2,9 @@ package br.com.fiap.locatech.locatech.controllers;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.logging.Logger;
 
-import org.apache.catalina.connector.Response;
+
+
 import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 @RequestMapping("/veiculos")
 public class VeiculoController {
 
-    private static final Logger logger = (Logger) LoggerFactory.getLogger(VeiculoController.class);
+    private static final org.slf4j.Logger logger = LoggerFactory.getLogger(VeiculoController.class);
 
     private final VeiculoService veiculoService;
 
